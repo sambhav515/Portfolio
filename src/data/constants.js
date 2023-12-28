@@ -1,15 +1,15 @@
 export const Bio = {
-  name: "Shivansh Nema",
+  name: "Sambhav Agrawal",
   roles: [
     "Full Stack Developer",
   ],
   description:
-    "With a deep commitment to innovation, efficiency, and problem-solving, I possess the skills necessary to troubleshoot and resolve technical challenges swiftly. I am dedicated to continuous learning and growth in the field of IT, driven by a genuine passion for creating cutting-edge solutions.",
-  github: "https://github.com/ShivanshNemaWeb",
+    "Motivated and ambitious entry-level professional with a keen interest in data structures and algorithms. Committed to honing problem-solving abilities, fostering teamwork and synergy, and delivering significant outcomes in a challenging and growth-driven atmosphere",
+  github: "https://github.com/sambhav515",
   resume:
-    "https://drive.google.com/file/d/19k_Vkc6bK_N4BW2L8oWQdBJPAYXfX5IE/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/shivansh-nema-326b52204/",
-  twitter: "https://twitter.com/ShivanshNema10",
+    "https://drive.google.com/file/d/1nN3Q2nKccBqtjAbn-VG8K868XHBEr-OM/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/sambhav-agrawal-5ba82024b/",
+  twitter: "https://twitter.com/Sambhy2",
 };
 
 export const skills = [
@@ -68,19 +68,21 @@ export const skills = [
       },
   
       {
-        name: "MongoDB",
+        name: "MySQL",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+          "https://i.ibb.co/9WSYSjs/MySQL.png",
       },
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
+
     ],
   },
   {
     title: "Programming Language",
     skills: [
+      {
+        name: "C++",
+        image:
+          "https://i.ibb.co/zHTGkgM/ISO-C-Logo-svg.png",
+      },
       {
         name: "Java",
         image:
@@ -118,12 +120,7 @@ export const skills = [
           "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
       },
       {
-        name: "Figma",
-        image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
-      },
-      {
-        name: "AWS S3",
+        name: "AWS",
         image:
           "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
       },
@@ -134,44 +131,21 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://i.ibb.co/1GhPGsD/wedsin-logo.png",
+    img: "https://i.ibb.co/sbrgBzW/includehelp-logo.png",
     role: "Full Stack Developer Intern",
-    company: "WedsIn Limited",
-    date: "Jun-2023 - Sep-2023",
-    desc: "• Developed and maintained backend APIs for a matrimonial application, utilizing NodeJs, MongoDB, and AWS S3. • Collaborated with Flutter team to seamlessly integrate APIs, ensuring effective communication via clear Postman documentation. • Designed and implemented database architecture using MongoDB and Firebase. • Designed and developed the admin panel using React.js, integrated APIs of Admin panel with Redux Thung.",
+    company: "Include Help",
+    date: "May-2023 - July-2023",
+    desc: "Developed and implemented essential API's using Node.js, enhancing the backend-to-frontend architecture for improved data retrieval. ▪ Contributed to designing and implementing filters, enhancing the user experience ▪ Gained invaluable insights into professional work culture, fostering effective collaboration, strengthening my ability to contribute effectively.",
     skills: [
       "Node Js",
       "Express Js",
-      "MongoDB",
-      "Firebase",
-      "AWS S3",
+      "MySQL",
       "React Js",
-      "Redux Thung",
-      "Figma",
-      "Material UI",
-      "Thired Party API"
+      "Material UI"
     ],
-    doc: "https://i.ibb.co/0mj6VJ3/Whats-App-Image-2023-11-30-at-1-31-05-AM.jpg",
+    doc: "https://i.ibb.co/2N8kd1p/Internship-Certificate.jpg",
   },
   
-  {
-    id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Frontend Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2022 - Aug 2022",
-    desc: "• Developed CRM software using MERN stack to manage employee data, including attendance, performance, sales, etc. • Designed and implemented pages for employee management, attendance tracking, performance management. • Created reports on employee performance using React and charting libraries.",
-    skills: [
-      "ReactJs",
-      "ChartJs",
-      "Material UI",
-      "Bootstrap",
-      "CSS",
-      "HTML",
-      "JavaScript"
-    ],
-    doc: "https://i.ibb.co/tz943wR/Certificate-Rudraksha-Welfare-Foundation.png",
-  },
 ];
 
 export const education = [
@@ -180,113 +154,52 @@ export const education = [
     img: "https://upload.wikimedia.org/wikipedia/en/d/d6/Madhav_Institute_of_Technology_and_Science_logo.png",
     school: "Madhav Institute of Technology & Science, Gwalior",
     date: "Oct 2020 - May 2024",
-    grade: "7.7 CGPA",
+    grade: "9 CGPA",
     desc: "",
     degree: "Bachelor of Technology - BTech, Electronics and Communications Engineering",
   },
   {
     id: 1,
-    img: "https://scontent.fjlr2-1.fna.fbcdn.net/v/t39.30808-1/242422240_1092967194568289_7817923280050240546_n.jpg?stp=cp0_dst-jpg_e15_p120x120_q65&_nc_cat=102&ccb=1-7&_nc_sid=4da83f&_nc_ohc=UJ39AZoc5dQAX-VHfxA&_nc_ht=scontent.fjlr2-1.fna&oh=00_AfBkPpcBSSDHi6Hn0az8uUMeupubCnV8CqNAsgmF-c4Y8Q&oe=6582A485",
-    school: "Ascent Public School",
+    img: "https://i.ibb.co/0rDs3kW/pvp.jpg",
+    school: "Pragati Vidya Peeth",
     date: "Jul 2019 - Mar 2020",
-    grade: "73.6%",
+    grade: "80%",
     desc: "",
-    degree: "M.P. Board(XII), PCM",
+    degree: "CBSE(XII), PCM",
   },
   {
     id: 2,
-    img: "https://scontent.fjlr2-1.fna.fbcdn.net/v/t39.30808-1/242422240_1092967194568289_7817923280050240546_n.jpg?stp=cp0_dst-jpg_e15_p120x120_q65&_nc_cat=102&ccb=1-7&_nc_sid=4da83f&_nc_ohc=UJ39AZoc5dQAX-VHfxA&_nc_ht=scontent.fjlr2-1.fna&oh=00_AfBkPpcBSSDHi6Hn0az8uUMeupubCnV8CqNAsgmF-c4Y8Q&oe=6582A485",
-    school: "Ascent Public School",
+    img: "https://i.ibb.co/0rDs3kW/pvp.jpg",
+    school: "Pragati Vidya Peeth",
     date: "Jul 2017 - Mar 2018",
-    grade: "79.4%",
+    grade: "83%",
     desc: "",
-    degree: "M.P. Board(X)",
+    degree: "CBSE(X)",
   },
 ];
 
 export const projects = [
   {
     id: 0,
-    title: "RentIt",
-    date: "Nov 2023 - Dec 2023",
+    title: "PaynRent",
+    date: "Feb 2023 - Mar 2023",
     description:
-      "RentIt stands as a revolutionary MERN stack-powered e-commerce hub, catering to fashion designers eager to share their creations and users hungry for a taste of exclusive fashion. Offering a seamless platform for designers to rent out their designs, RentIt transforms the traditional e-commerce landscape. Users can effortlessly engage with designer collections, rent coveted pieces, and amplify the experience by liking and following their favorite stores. With a focus on customization and community-building, RentIt transcends mere commerce; it's a dynamic, accessible runway where style takes center stage, making luxury fashion an experience open to all.",
+      "• Developed a FullStack website for online vehicle rental services, facilitating easy search and booking of rental cars in desired cities for desired duration. • Sophisticated administrative interface empowering authorized personnel to seamlessly add, delete, and edit car details, enhancing the platform's rental management capabilities. • Implemented robust functionalities such as search filters by brand, capacity, type. Seamless user experience to ensure efficient online transactions.",
     image:
-      "https://i.ibb.co/SvKgMFS/RentIt.png",
+      "https://i.ibb.co/NZRRsRN/paynrent.jpg",
     tags: [
      "React Js",
      "Redux",
      "Material UI",
-     "Bootstrap",
      "HTML",
      "CSS",
      "Node Js",
      "Express Js",
-     "MongoDB",
-     "Firebase",
-     "AWS S3"
+     "MySQL"
     ],
     category: "web app",
-    github: "https://github.com/ShivanshNemaWeb/rentIt-New.git",
-    webapp: "https://657eac0a7a7398473b1d3824--fascinating-profiterole-37ca72.netlify.app/",
-  },
-  {
-    id: 1,
-    title: "Weather App",
-    date: "May 2023 - May 2023",
-    description:
-      "The Weather App, a testament to the power of ReactJS, offers users a seamless journey into the atmospheric wonders of any city. Designed for simplicity and functionality, this app provides real-time weather conditions with precision. Users can effortlessly retrieve temperature readings in degrees Celsius, humidity levels, and detailed weather descriptions for any city of their choosing. The intuitive search feature further enhances the user experience, allowing them to explore weather patterns globally. A minimalist design coupled with powerful functionality makes the Weather App a go-to companion for anyone curious about the meteorological nuances shaping our world.",
-    image:
-      "https://i.ibb.co/DV3cYyZ/weather-App.png",
-    tags: [
-     "React Js",
-     "Material UI",
-     "Bootstrap",
-     "HTML",
-     "CSS",
-    ],
-    category: "web app",
-    github: "https://github.com/ShivanshNemaWeb/weatherApp",
-    webapp: "https://657eb1b2b771994ad34c74a5--inspiring-marzipan-4a862a.netlify.app/",
-  },
-
-   
-  {
-    id: 3,
-    title: "eCart",
-    date: "May 2023 - May 2023",
-    description:
-    "Meet eCart, a dynamic Telegram bot crafted with Node.js, Express.js, MongoDB, and the Telegraf API, revolutionizing the local grocery shopping experience. Tailored for convenience, users can seamlessly browse, order, and manage grocery items from nearby stores, all within the Telegram platform. eCart mimics the functionality of traditional e-commerce, featuring an intuitive Add to Cart mechanism, adjustable product quantities, and the ability to add or remove items effortlessly. The bot extends its prowess to shop owners through an admin panel, allowing them to access and manage customer orders by logging in with their credentials. With eCart, grocery shopping becomes a streamlined and interactive journey, bringing the local market to users' fingertips.",
-    image:
-      "https://i.ytimg.com/vi/c1_NohXR7QE/maxresdefault.jpg",
-    tags: [
-    "Node Js",
-    "Express Js",
-    "MongoDB",
-    "Telegraf API"
-    ],
-    category: "Telegram Bot",
-    github: "https://github.com/ShivanshNemaWeb/eCart",
-    webapp: "https://drive.google.com/file/d/17m5VLAdW7Y8sXtUrEnK07rYVho-o6pwb/view?usp=sharing",
-  },
-  {
-    id: 2,
-    title: "To Do App",
-    date: "May 2023 - May 2023",
-    description:
-    "Introducing a dynamic ToDo List app built with React.js, designed to elevate task organization and management. This app seamlessly integrates with a third-party API, fetching an array of tasks and presenting them in a user-friendly table format. To enhance user experience, pagination is implemented, ensuring each page displays a manageable set of five tasks. The search bar feature empowers users to swiftly locate specific tasks based on completeness, titles, and other criteria. For a comprehensive view, a dedicated button unveils detailed information about each task, providing clarity and context. With this ToDo List app, task management becomes a breeze, combining efficiency with a sleek and intuitive interface.",
-    image:
-      "https://i.ibb.co/MPYRzPj/To-do-app.png",
-    tags: [
-     "React Js",
-     "Material UI",
-     "Bootstrap",
-     "HTML",
-     "CSS",
-    ],
-    category: "web app",
-    github: "https://github.com/ShivanshNemaWeb/todoApp",
-    webapp: "https://resilient-dasik-ff45d8.netlify.app/",
+    github: "https://github.com/sambhav515/PaynRent_-Car-Rental-Website-.git",
+    webapp: "https://paynrent.netlify.app/",
   },
 
 ];
@@ -296,33 +209,13 @@ export const codingProfiles = [
     id: 0,
     title: "Leetcode",
     description:
-    "Solved 380+ DSA questions at leetcode. Rewarded with 100 Days and 50 Days badges.",
+    "Solved 400+ DSA questions at leetcode. Rewarded with 100 Days and 50 Days badges.",
     image:
-      "https://i.ibb.co/6v9s1Pm/leetcode-Profile.png",
+      "https://i.ibb.co/93sVYw2/Leetcode.jpg",
     
-    profile:"https://leetcode.com/shivanshnema_04/"
+    profile:"https://leetcode.com/Dextro9/"
      },
-     {
-      id: 1,
-      title: "GFG",
-      description:
-        "Solved 195+ questions. Secured Institute Rank - 132. Got overall 536 points. ",
-      image:
-      "https://i.ibb.co/yV172PM/gfg.png",
-      
-      profile:"https://auth.geeksforgeeks.org/user/shivanshnema83"
-       },
-       {
-        id: 2,
-        title: "Hackerrank",
-        description:
-          "Got a Silver badge in problem solving with 590 points and silver badge in Java with 83 points.",
-        image:
-        "https://i.ibb.co/J5nN4mk/hackerrank.png",
-        
-        profile:"https://www.hackerrank.com/profile/shivanshnema83"
-         },
-
+     
 ];
 
 export const TimeLineData = [
